@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background: black;
+}
+a{
+    color: white;
+
+}
+.logo{
+    float: left;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+.nav-items{
+    float: right;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    list-style: none;
+}
+.header .navbar .navitem {
+    display: inline-block;
+    padding: 1rem;
+    
+}
+.navbar::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}

@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background: black;
+}
+a{
+    color: white;
+
+}
+.logo{
+    float: left;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+.nav-items{
+    float: right;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    list-style: none;
+}
+.header .navbar .navitem {
+    display: inline-block;
+    padding: 1rem;
+    
+}
+.navbar::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+/* ###### about section ######## */
+.sec{
+    margin-top: 100px;
+    
+
+}
+.h1{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    float: left;
+    border: solid red;
+}
+.hrr{
+    height:5px;
+    border-width:0;
+    color:red;
+    background-color:red;
+}
+.para{
+    color: black;
+    margin-top: 50px;
+}
+.leftlist{
+    margin-top: 50px;
+    float: left;
+    margin-left: 50px;
+    color:rgb(34, 167, 22);
+}
+.ll{
+    list-style:none;
+}
+.rightlist{
+    margin-right:30%;
+    float: right;
+    color:rgb(34, 167, 22);
+    margin-top: 50px;
+}
+.data{
+    
+    margin-top: 200px;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+}
+.b1,.b2,.b3,.b4{
+    width:25%;
+    float: left;
+    /* border: solid rebeccapurple; */
+    padding: 2rem;
+    text-align: center;
+    box-shadow: black;
+    color: red;
+
+  
+}
+.leftlist li::before{
+    content: '\2713';
+    color: red;
+    font-weight: bold;
+}
+.rightlist li::before{
+    content: '\2713';
+    color: red;
+    font-weight: bold;
+}
+.sp{
+    color: purple;
+}
+/* ########## last section ##############  */
+.cta-banner{
+background-color: red;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 100px;
+    height: 60px;
+    margin-bottom: 50px;
+}
+.cta-banner .lines{
+    float: left;
+    width: 60%;
+text-align: center;
+    height: 100%; 
+    font-weight: 700;
+}
+.buttonstyle{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    border: solid white;
+    border-radius: 10rem;
+    float: left;
+    width: 30%;
+margin-top: 5px;
+margin-bottom: 50px;
+
+}
+.cta-banner::after{
+    content: '';
+    display: block;
+    clear: both;
+}
